@@ -1,3 +1,12 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.6.3...v1.6.4) (2026-07-11)
+
+
+### Bug Fixes
+
+* bump package versions ([102ea27](https://github.com/CoCreate-app/CoCreate-cache/commit/102ea27b91470c3f665de02b091415d2731c5ce5))
+* removed post install and add add packages to apprved list ([092a971](https://github.com/CoCreate-app/CoCreate-cache/commit/092a9719c29f56f9765294a4423461b26b12730e))
+* semantic version handling ([7e562fe](https://github.com/CoCreate-app/CoCreate-cache/commit/7e562fe282174004066928fd8e0e8ceaf2f96215))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.6.2...v1.6.3) (2026-01-18)
 
 
