@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.6.4...v1.7.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([83b0ca0](https://github.com/CoCreate-app/CoCreate-cache/commit/83b0ca08c2fb1e6049cc8cc64383ede1eb273fac))
+
 ## [1.6.4](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.6.3...v1.6.4) (2026-07-11)
 
 
