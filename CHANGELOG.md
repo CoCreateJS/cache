@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.7.1...v1.7.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([4ae88fd](https://github.com/CoCreate-app/CoCreate-cache/commit/4ae88fd755aaf97bfb7cc949093729532bc1d199))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-cache/compare/v1.7.0...v1.7.1) (2026-07-17)
 
 
