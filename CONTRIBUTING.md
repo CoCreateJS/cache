@@ -13,7 +13,7 @@ Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-cache) and
 ```
 git cache https://github.com/contributor/CoCreate-cache.git
 cd CoCreate-cache
-git remote add upstream https://github.com/CoCreate-app/CoCreate-cache.git
+git remote add upstream https://gitlab.com/cocreatejs/CoCreate-cache.git
 ```
 
 ## Create a Topic Branch
