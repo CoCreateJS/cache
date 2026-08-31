@@ -133,7 +133,7 @@ navigator.serviceWorker.addEventListener("message", (event) => {
 					.send({
 						method: "object.read",
 						array: "files",
-						$filter: {
+						filter: {
 							query: {
 								pathname,
 								"modified.on": { $gt: lastModified }
