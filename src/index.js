@@ -138,8 +138,7 @@ navigator.serviceWorker.addEventListener("message", (event) => {
 								pathname,
 								"modified.on": { $gt: lastModified }
 							}
-						},
-						status: "await"
+						}
 					})
 					.then((data) => {
 						if (data.object && data.object[0]) {
