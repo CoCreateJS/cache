@@ -34,9 +34,9 @@
     "url": "git+https://github.com/cocreatejs/CoCreate-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-cache/issues"
+    "url": "https://github.com/CoCreateJS/CoCreate-cache/issues"
   },
-  "homepage": "https://cocreate.app/docs/cache",
+  "homepage": "https://CoCreateJS.com/docs/cache",
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/CoCreate-app"
