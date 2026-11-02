@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cocreatejs/CoCreate-cache.git"
+    "url": "git+https://github.com/CoCreateJS/cache.git"
   },
   "bugs": {
-    "url": "https://github.com/CoCreateJS/CoCreate-cache/issues"
+    "url": "https://github.com/CoCreateJS/cache/issues"
   },
   "homepage": "https://CoCreateJS.com/docs/cache",
   "funding": {
     "type": "GitHub Sponsors ❤",
-    "url": "https://github.com/sponsors/CoCreate-app"
+    "url": "https://github.com/sponsors/CoCreateJS"
   },
   "main": "./src/index.js",
   "dependencies": {

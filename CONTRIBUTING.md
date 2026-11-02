@@ -1,19 +1,19 @@
 # Contributing to CoCreate-cache
 
-This project is work of [many contributors](https://github.com/CoCreateJS/CoCreate-cache/graphs/contributors).
-You're encouraged to submit [pull requests](https://github.com/CoCreateJS/CoCreate-cache/pulls),
-[propose features and discuss issues](https://github.com/CoCreateJS/CoCreate-cache/issues).
+This project is work of [many contributors](https://github.com/CoCreateJS/cache/graphs/contributors).
+You're encouraged to submit [pull requests](https://github.com/CoCreateJS/cache/pulls),
+[propose features and discuss issues](https://github.com/CoCreateJS/cache/issues).
 
 In the examples below, substitute your Github username for `contributor` in URLs.
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreateJS/CoCreate-cache) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreateJS/cache) and check out your copy.
 
 ```
 git cache https://github.com/contributor/CoCreate-cache.git
 cd CoCreate-cache
-git remote add upstream https://github.com/cocreatejs/CoCreate-cache.git
+git remote add upstream https://github.com/CoCreateJS/cache.git
 ```
 
 ## Create a Topic Branch
@@ -74,7 +74,7 @@ git push origin my-feature-branch
 
 ## Make a Pull Request
 
-Go to [https://github.com/CoCreateJS/CoCreate-cache](https://github.com/CoCreateJS/CoCreate-cache) and select your feature branch.
+Go to [https://github.com/CoCreateJS/cache](https://github.com/CoCreateJS/cache) and select your feature branch.
 Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 ## Rebase

@@ -167,7 +167,7 @@ navigator.serviceWorker.addEventListener("message", (event) => {
 						}
 					});
 			} else {
-				// TODO: handle files not retuned by @cocreate/file-server using the files header cache stratergy
+				// TODO: handle files not returned by @cocreate/file/server using the files header cache strategy
 				// console.log('Send to fetch', { pathname, organization, lastModified })
 				// fetch(file)
 				//     .then((response) => {
