@@ -1,3 +1,29 @@
+# [2.0.0](https://github.com/CoCreateJS/cache/compare/v1.7.2...v2.0.0) (2026-11-02)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([db514dc](https://github.com/CoCreateJS/cache/commit/db514dcd6138773c5293d1e77e92b5596487f639))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([e90edb6](https://github.com/CoCreateJS/cache/commit/e90edb6ded832a8ba54a46810efc05d216e3fd74))
+* bump [@cocreate](https://github.com/cocreate) package versions ([fa5b178](https://github.com/CoCreateJS/cache/commit/fa5b178ff837030c1f805ad84cfc1c941ea32f60))
+* bump versions ([1b740c8](https://github.com/CoCreateJS/cache/commit/1b740c81d1e139b38920be0de4ea3cbb8b8173f4))
+* bump versions ([68bc1f0](https://github.com/CoCreateJS/cache/commit/68bc1f07233b20f9bc505587ddd41ac2250aa30e))
+* remove trailing slash from node_modules entry in .gitignore ([099663d](https://github.com/CoCreateJS/cache/commit/099663d20e54bf535cda2a9e82226fde2699b949))
+* replace legacy $filter field with filter ([d5a2975](https://github.com/CoCreateJS/cache/commit/d5a2975676617901cdb4ac4ac8fe9ed4e97ea3c0))
+* update git url ([ba57bb7](https://github.com/CoCreateJS/cache/commit/ba57bb772f1c1aaf9563193ea22c902fba06ddb7))
+* update GitHub Actions to use latest versions and sync package.json description ([b0f7a0f](https://github.com/CoCreateJS/cache/commit/b0f7a0f62816846c8739b2de7e82e6414c48d5f5))
+
+
+### Features
+
+* align CoCreate repository and package naming ([a1e0266](https://github.com/CoCreateJS/cache/commit/a1e02660ace742c0ed031bb0fa0e565d5024b984))
+* replace uuid import and usage with utils ([6a69ed4](https://github.com/CoCreateJS/cache/commit/6a69ed4b6e4c537a101b52fe70c033f6a74f3084))
+
+
+### BREAKING CHANGES
+
+* consumers must use the renamed CoCreate package and repository identities; the previous prefixed names are no longer supported.
+
 ## [1.7.2](https://github.com/CoCreateJS/CoCreate-cache/compare/v1.7.1...v1.7.2) (2026-07-19)
 
 
