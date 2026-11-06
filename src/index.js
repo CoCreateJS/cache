@@ -1,4 +1,4 @@
-import socket from "@cocreate/socket-client";
+import { SocketClient as socket } from "@cocreate/socket";
 
 // const cacheName = "dynamic-v2"
 const cacheBtn = document.getElementById("cacheBtn");
