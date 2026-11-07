@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/CoCreateJS/cache/compare/v2.0.1...v2.0.2) (2026-11-07)
+
+
+### Bug Fixes
+
+* bump CoCreate dependency versions ([2122b1c](https://github.com/CoCreateJS/cache/commit/2122b1c39ff9912e267864955599dfe69986cedd))
+* complete unified socket package migration ([2df6598](https://github.com/CoCreateJS/cache/commit/2df6598d850167254c726bd354f883fceb49efc4))
+* consolidate CRUD client and server packages ([c055b93](https://github.com/CoCreateJS/cache/commit/c055b93d0f319c233f71c8ee21edd8021082996b))
+
 ## [2.0.1](https://github.com/CoCreateJS/cache/compare/v2.0.0...v2.0.1) (2026-11-05)
 
 
