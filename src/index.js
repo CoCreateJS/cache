@@ -114,7 +114,7 @@ if (cacheBtn) {
 	});
 }
 
-function fileChange(data) {
+async function fileChange(data) {
 	if (window.localStorage.getItem("cache") === "false") return;
 	if (data.array !== "files") return;
 	if (!data.object || !data.object.length) return;
@@ -122,7 +122,21 @@ function fileChange(data) {
 
 	for (let i = 0; i < data.object.length; i++) {
 		// console.log('File change: ', data.method, data.object[i].$storage, data.object[i].name, 'isSync: ', data.isSync, data.object.length)
-		putFile("dynamic-v2", data.object[i]);
+		const change = data.object[i];
+		if (data.method === 'object.update' && (change.$set || change.$unset)) {
+			const paths = [...Object.keys(change.$set || {}), ...Object.keys(change.$unset || {})];
+			if (!paths.some(path => ['src', 'name', 'pathname', 'content-type', 'host'].some(key => path === key || path.startsWith(key + '.')))) continue;
+			try {
+				// Cache storage needs a complete file, not a partial update payload.
+				const result = await socket.send({
+					method: 'object.read', array: data.array, object: { _id: change._id }, sync: true,
+					organization_id: data.organization_id, database: data.database,
+					host: data.host, storage: data.storage
+				});
+				if (result?.success === false || (Array.isArray(result?.error) ? result.error.length : result?.error)) continue;
+				for (const file of result?.object || []) putFile('dynamic-v2', file);
+			} catch (error) { console.error('Cache file refresh failed:', error); }
+		} else putFile("dynamic-v2", change);
 	}
 }
 
